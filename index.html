@@ -266,14 +266,21 @@
 
         <!-- Bloco de extras: canal no YouTube, fora do grid de cards -->
         <div class="extras-youtube">
-          <p class="extra-entidade">Extra: Canal no YouTube</p>
+          <p class="extra-entidade">Canal no YouTube</p>
           <p class="extras-youtube-texto">
             Tenho um canal de física mecânica estática no YouTube, link para acessar:
           </p>
           <!-- iframe embedded do YouTube: carregamento lazy para não atrasar a página.
                O título é obrigatório para acessibilidade. Autoplay desativado por padrão. -->
-          <a href="https://youtu.be/ZwzBfBShi8E" target="_blank" rel="noopener noreferrer" class="youtube-link">
-          ▶ Assistir no YouTube </a>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/ZwzBfBShi8E"
+              title="Canal Bruxo da Física — Mecânica Estática"
+              loading="lazy"
+              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+          </div>
         </div>
 
       </section>

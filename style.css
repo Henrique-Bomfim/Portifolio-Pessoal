@@ -611,26 +611,6 @@ footer {
   align-self: flex-end;
 }
 
-/* Foco visível: garante que quem navega pelo teclado (Tab) enxergue onde está.
-   Usa :focus-visible para não mostrar o outline em cliques com mouse. */
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.youtube-link {
-  display: inline-block;
-  font-size: var(--fs-sm);
-  color: var(--text);
-  text-decoration: none;
-  border: 1px solid var(--border);
-  padding: 0.5rem 1rem;
-  transition: border-color 0.2s;
-}
-
-.youtube-link:hover { border-color: var(--text); }
-
 /* ── Responsividade ── */
 
 /* Breakpoint 1 — tablets e celulares grandes (até 860px):
